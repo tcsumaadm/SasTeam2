@@ -53,7 +53,7 @@ namespace SASTeam
             {
                 if (rows[i].Contains("id='name'") && rows[i].Contains("$name"))
                 {
-                    string name = "Peter Singh Dsuoza 123 CD example";
+                    string name = "Peter Singh Dsuoza 123 CD ";
                     rows[i] = "<tr" + rows[i].Replace("$name", name);
                     updatedtable = updatedtable.Append(rows[i]);
                 }
